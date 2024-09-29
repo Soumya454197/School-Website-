@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply - JPHS</title>
+    <link rel="stylesheet" href="applystyle.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>JPHS</h1>
+            <p>Jaipur Public High School</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About JPHS</a></li>
+                <li><a href="#admissions">Admissions</a></li>
+                <li><a href="#academics">Academics</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#alumni">Alumni</a></li>
+                <li><a href="#feedback">Parent Feedback</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="apply-section">
+        <h2>Application Form</h2>
+        <p>Please fill out the form below to apply for admission to JPHS.</p>
+        <form action="#" method="post" class="application-form">
+            <label for="name">Student's Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+
+            <label for="email">Parent's Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Parent's Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="address">Home Address:</label>
+            <textarea id="address" name="address" rows="4" required></textarea>
+
+            <label for="grade">Applying for Grade:</label>
+            <select id="grade" name="grade" required>
+                <option value="pre-primary">Pre-Primary</option>
+                <option value="primary">Primary</option>
+                <option value="middle">Middle School</option>
+                <option value="high">High School</option>
+            </select>
+
+            <input type="submit" value="Submit Application" class="submit-btn">
+        </form>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+            <a href="#">YouTube</a>
+        </div>
+        <p>&copy; 2024 JPHS - Jaipur Public High School</p>
+    </footer>
+</body>
+</html>

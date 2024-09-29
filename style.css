@@ -1,0 +1,253 @@
+/* General Styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #9a4444; /* Light background to contrast sections */
+}
+
+header {
+    background: #1c1b18; /* Bright Orange for header */
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header .logo h1 {
+    font-size: 28px;
+    color: #110303;
+}
+
+header .logo p {
+    font-size: 14px;
+    color: #fdfdfd;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #ffffff; /* White text in header */
+    font-weight: bold;
+}
+
+.action-buttons .apply-btn {
+    background-color: #ffcc00; /* Bright Yellow Button */
+    padding: 10px 20px;
+    color: #333;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.action-buttons .apply-btn:hover {
+    background-color: #fdd835; /* Darker Yellow on Hover */
+}
+
+/* Hero Section */
+.hero-section {
+    height: 100vh;
+    background-image: url('jphs%20school%20image.jpeg'); /* School Image Background */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Dark overlay for better text readability */
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #ffcc00; /* Bright Yellow for the heading */
+}
+
+.hero-content p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #0a0906; /* Light yellow text */
+}
+
+.hero-btn {
+    background-color: #ffcc00; /* Bright Yellow button */
+    padding: 15px 30px;
+    color: #333;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* About JPHS Section */
+.about-section {
+    padding: 50px 20px;
+    background-color: #86a3ba; /* Light Blue Section Background */
+    color: white; /* White text for contrast */
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #9f5b5b; /* Bright white for heading */
+}
+
+/* Academics Section */
+.academics-section {
+    padding: 50px 20px;
+    background-color: #87b288; /* Green Background for Academics */
+    color: white; /* White text */
+}
+
+.academics-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: #ffffff; /* White heading */
+}
+
+.academic-programs {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.program {
+    width: 30%;
+    background-color: #e8f5e9; /* Light Green for individual programs */
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: #78af7a; /* Dark green text */
+}
+
+/* Events Section */
+.events-section {
+    padding: 50px 20px;
+    background-color: #c6c193; /* Yellow background for Events */
+}
+
+.events-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: #333; /* Darker text for contrast */
+}
+
+.event-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.event {
+    width: 45%;
+    background-color: #a5a17a; /* Light Yellow event background */
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: #000; /* Black text for readability */
+}
+
+/* Alumni Section */
+.alumni-section {
+    padding: 50px 20px;
+    background-color: #ac9acc; /* Purple Background for Alumni */
+    color: white;
+}
+
+.alumni-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: #e1bee7; /* Light Purple for the heading */
+}
+
+.alumni-highlights {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.alumni-profile {
+    width: 30%;
+    background-color: #ede7f6; /* Very light purple for alumni profiles */
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: #9288a9; /* Dark purple text */
+}
+
+/* Parent Feedback Section */
+.feedback-section {
+    padding: 50px 20px;
+    background-color: #91b4c4; /* Light Blue Feedback section */
+    color: white;
+}
+
+.feedback-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: #fff;
+}
+
+.feedback-testimonials {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.testimonial {
+    width: 30%;
+    background-color: #e1f5fe; /* Light Blue for feedback */
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: #9bbacd; /* Dark blue text */
+}
+
+/* Footer Section */
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #333; /* Dark footer */
+    color: white;
+}
+
+.social-links a {
+    color: #ffcc00; /* Yellow social links */
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 16px;
+}
